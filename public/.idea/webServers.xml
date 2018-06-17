@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c86f796c-f29d-4c67-bcb9-498f5f0ac540" name="ThinkPHP5.1" url="http://php.me/tp5.1">
+        <fileTransfer port="0" mountedRoot="D:\WebServer\www\tp5.1" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
