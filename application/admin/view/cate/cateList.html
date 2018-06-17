@@ -1,0 +1,39 @@
+{layout name='public:layout' /}
+<h4 class="text-center text-success">{$title}</h4>
+<table class="table table-default table-hover text-center">
+    <tr class="bg-info">
+        <td>ID</td>
+        <td>栏目名称</td>
+        <td>排序</td>
+        <td>状态</td>
+        <td>创建时间</td>
+        <td colspan="2">操作</td>
+    </tr>
+
+    {volist name='cateList' id='cateList' empty='$empty'}
+    <tr>
+        <td>{$cateList.id}</td>
+        <td>{$cateList.title}</td>
+        <td>{$cateList.sort}</td>
+        <td>
+            {eq name="$cateList.status" value="1"}<span class="text-success">正常</span>{/eq}
+            {eq name="$cateList.status" value="0"}<span class="text-danger">隐藏</span>{/eq}
+        </td>
+        <td>{$cateList.create_time}</td>
+        <td><a href="{:url('admin/cate/cateEdit',['id'=>$cateList.id])}">编辑</a></td>
+        <td><a class="del" id="{$cateList.id}" href="#">删除</a> </td>
+
+    </tr>
+    {/volist}
+</table>
+<a href="{:url('admin/cate/cateAdd')}" class="btn btn-success btn-sm">添加栏目</a>
+<script>
+    $(function () {
+        $('.del').on('click', function () {
+            var id = $(this).attr('id');
+            //console.log(id);
+            dialog.confirm('是否删除该栏目？', "cate/del/id/"+id);
+            return;
+        })
+    });
+</script>

@@ -1,0 +1,123 @@
+<div class="col-md-4">
+    <div class="page-header">
+        <h2>热门排行</h2>
+    </div>
+    <ul class="list-group">
+        {volist name="pv" id="pvList" empty="$empty"}
+        <li class="list-group-item" title="{$pvList.title}">
+            <marquee direction="left" behavior="alternate" scrollamount="1" scrolldelay="100">
+                <a href="{:url('index/index/index',['keyword'=>$pvList.title])}">{$pvList.title} 【阅读量: {$pvList.pv}】</a>
+            </marquee>
+        {/volist}
+    </ul>
+
+    <div class="page-header">
+        <h2>最新评论</h2>
+    </div>
+    <ul class="list-group">
+        {volist name="$comments" id="commentsList" empty="$empty"}
+            <li class="list-group-item">
+                <marquee direction="left"  scrollamount="5">
+                {$commentsList.content}
+                </marquee>
+            </li>
+        {/volist}
+    </ul>
+
+    <div class="page-header">
+        <h2>站点统计</h2>
+    </div>
+    <div class="col-md-12">
+        <div class="thumbnail">
+            <div id="main" style="height:400px;"></div>
+            <div id="articleCountList">
+                {volist name="$articleCount" id="articleCountList"}
+                <input type="hidden" value='{"value":"{$articleCountList.count}","name":"{$articleCountList.title}"}'>
+                {/volist}
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            //获取文章统计信息
+            var array = [];
+            var txt = $("#articleCountList").find(':hidden');
+            var json = ' ';
+            for (var i = 0; i < txt.length; i++) {
+                json = json + txt.eq(i).val()+","; // 将文本框的值添加到数组中
+            }
+            json = json.substring(0,json.length-1)
+            var array = JSON.parse("["+json+"]");
+            //console.log(array);
+
+            var myChart = echarts.init(document.getElementById("main"));
+            option = {
+                backgroundColor: '#2c343c',
+
+                title: {
+                    text: '站点文章统计',
+                    left: 'center',
+                    top: 20,
+                    textStyle: {
+                        color: '#ccc'
+                    }
+                },
+
+                tooltip : {
+                    trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                },
+
+                visualMap: {
+                    show: false,
+                    min: 0,
+                    max: 5,
+                    inRange: {
+                        colorLightness: [0, 1]
+                    }
+                },
+                series : [
+                    {
+                        name:'数量',
+                        type:'pie',
+                        radius : '55%',
+                        center: ['50%', '50%'],
+                        data:array.sort(function (a, b) { return a.value - b.value; }),
+                        roseType: 'radius',
+                        label: {
+                            normal: {
+                                textStyle: {
+                                    color: 'rgba(255, 255, 255, 0.3)'
+                                }
+                            }
+                        },
+                        labelLine: {
+                            normal: {
+                                lineStyle: {
+                                    color: 'rgba(255, 255, 255, 0.3)'
+                                },
+                                smooth: 0.2,
+                                length: 10,
+                                length2: 20
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                color: '#c23531',
+                                shadowBlur: 200,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        },
+
+                        animationType: 'scale',
+                        animationEasing: 'elasticOut',
+                        animationDelay: function (idx) {
+                            return Math.random() * 200;
+                        }
+                    }
+                ]
+            };
+            myChart.setOption(option);
+        });
+    </script>
+</div>

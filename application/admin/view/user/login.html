@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{$title|default='管理员登录'}</title>
+    {css href="/static/css/bootstrap.min.css" /}
+    {css href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" /}
+    {js href="/static/js/jquery-3.2.1.min.js" /}
+    {js href="/static/js/bootstrap.min.js" /}
+    {js href="/static/js/nicEdit.js" /}
+    {js href="/static/js/echarts.min.js" /}
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 thumbnail">
+            <div class="page-header text-center">
+                <h2>管理员登录</h2>
+            </div>
+            <form method="post" id="login" class="form-signin" role="form" action="{:url('admin/user/checkLogin')}">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="email">邮箱:</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码:</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="PassWord" required>
+                    </div>
+
+                </fieldset>
+                <button type="submit" class="btn btn-info btn-block" id="submit">登录</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

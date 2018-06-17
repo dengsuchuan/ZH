@@ -1,0 +1,59 @@
+{layout name='public:layout' /}
+<h4 class="text-center text-success">{$title}</h4>
+<table class="table table-default table-hover text-center">
+    <tr class="bg-info">
+        <td>ID</td>
+        <td>用户名</td>
+        <td>邮箱</td>
+        <td>手机号</td>
+        <td>注册时间</td>
+        <td>身份</td>
+        <td>状态</td>
+        <td colspan="2">操作</td>
+    </tr>
+
+    {volist name='userList' id='userList' empty='$empty'}
+    <tr>
+        <td>{$userList.id}</td>
+        <td>{$userList.name}</td>
+        <td><a href="mailto:{$userList.email}">{$userList.email}</a></td>
+        <!--<a href="mailto:{$userList.email}?subject=投稿：body=源地址：">立即投稿»</a>-->
+        <!--mailto:邮件地址-->
+        <!--subject=邮件标题-->
+        <!--body=邮件内容-->
+        <td>{$userList.mobile}</td>
+        <td>{$userList.create_time}</td>
+        <td>
+            {eq name="$userList.is_admin" value="0"}<span class="text-success">普通用户</span>{/eq}
+            {eq name="$userList.is_admin" value="1"}<span class="text-danger">超级管理员</span>{/eq}
+        </td>
+        <td>
+            {eq name="$userList.status" value="1"}<span class="text-success">正常</span>{/eq}
+            {eq name="$userList.status" value="0"}<span class="text-danger">停用</span>{/eq}
+        </td>
+        <td><a href="{:url('admin/user/userEdit',['id'=>$userList.id])}">编辑</a></td>
+        {eq name="$userList.id" value="$Think.session.admin_id"}
+        <td><a class="text-danger disabled" href="javascript:;">删除</a></td>
+        <script>
+            $(function () {
+                $('.disabled').on('click',function () {
+                    dialog.error('禁止删除自己');
+                });
+            });
+        </script>
+        {/eq}
+        {neq name="$userList.id" value="$Think.session.admin_id"}
+        <td><a class="del" id="{$userList.id}" href="javascript:;">删除</a></td>
+        {/neq}
+    </tr>
+    {/volist}
+</table>
+<script>
+    $(function () {
+        $('.del').on('click', function () {
+            var id = $(this).attr('id');
+            //console.log(id);
+            dialog.confirm('是否删除该用户？', '/admin/user/del?id=' + id);
+        })
+    });
+</script>

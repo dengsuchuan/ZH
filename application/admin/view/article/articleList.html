@@ -1,0 +1,55 @@
+{layout name='public:layout' /}
+<h4 class="text-center text-success">{$title}</h4>
+<table class="table table-default table-hover text-center">
+    <tr class="bg-info">
+        <td>ID</td>
+        <td>文章名称</td>
+        {eq name="$Think.session.admin_level" value="1"}
+        <td>作者</td>
+        {/eq}
+        <td>浏览量</td>
+        <td>点赞数</td>
+        <td>收藏数</td>
+        <td>状态</td>
+        <td>发表日期</td>
+        <td colspan="2">操作</td>
+    </tr>
+
+    {volist name='articleList' id='art' empty='$empty'}
+    <tr>
+        <td>{$art.id}</td>
+        <td class="text-left"><a href="{:url('/index/index/index')}?keyword={$art.title}"  target="_blank">{$art.title}</a></td>
+        {eq name="$Think.session.admin_level" value="1"}
+        <td>
+            {eq name="$art.user_id|getUserName" value="0"}
+            <span style="color: red">黑户</span>
+            {else /}
+            {$art.user_id|getUserName}
+            {/eq}
+
+        </td>
+        {/eq}
+        <td>{$art.pv}</td>
+        <td>{$art.id|getLink}</td>
+        <td>{$art.id|getFavCount}</td>
+        <td>
+            {eq name="$art.status" value="1"}<span class="text-success">正常</span>{/eq}
+            {eq name="$art.status" value="0"}<span class="text-danger">隐藏</span>{/eq}
+        </td>
+        <td>{$art.create_time}</td>
+        <td><a href="{:url('admin/article/articleEdit',['id'=>$art.id])}">编辑</a> </td>
+        <td><a class="del" id="{$art.id}" href="#">删除</a> </td>
+    </tr>
+    {/volist}
+</table>
+<div class="text-center">
+    {$articleList|raw}
+</div>
+<script>
+    $(function () {
+        $('.del').on('click', function () {
+            var id = $(this).attr('id');
+            dialog.confirm('是否删除该文章？', 'article/del?id='+id);
+        })
+    });
+</script>

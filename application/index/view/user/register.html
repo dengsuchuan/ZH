@@ -1,0 +1,63 @@
+{extend name="public:base"}
+{block name="body"}
+    <div class="row">
+        <div class="col-md-8">
+            <div class="page-header">
+                <h2>用户注册</h2>
+            </div>
+            <form method="post" id="login" action="insert">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="name">用户名称:</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="UserName">
+                        <p class="help-block">用户名称</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱:</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                        <p class="help-block">用于找回密码或者登录平台</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">手机:</label>
+                        <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Mobile">
+                        <p class="help-block">中国大陆手机号码</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码:</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="PassWord">
+                        <p class="help-block">密码由字母或数字组成;必须大于5,小于20位</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="password_confirm">确认密码:</label>
+                        <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="PassWord Confirm">
+                        <p class="help-block">必须和上面输入的密码相同</p>
+                    </div>
+                </fieldset>
+                <button type="button" class="btn btn-info btn-block" id="register">确认注册</button>
+            </form>
+        </div>
+        <script>
+            $(function () {
+                $('#register').on('click',function () {
+                    //alert($('#login').serialize());
+                    $.ajax({
+                        type:'post',
+                        url:"{:url('insert')}",
+                        data:$('#login').serialize(),
+                        dataType:'json',
+                        success:function (data) {
+                            console.log(data);
+                            if(data.status == 1){
+                                dialog.success(data.message);
+                                //console.log(data);
+                                window.location.href="/";
+                            }else{
+                                dialog.error(data.message);
+                                window.location.back();
+                            }
+                        }
+                    });
+                });
+            })
+        </script>
+{/block}

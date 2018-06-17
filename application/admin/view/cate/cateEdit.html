@@ -1,0 +1,51 @@
+{layout name='public:layout' /}
+<h4 class="text-success text-center">编辑分类信息</h4>
+<form class="form-horizontal" action="{:url('cate/doEdit')}" method="post" onSubmit="return inputSu();">
+    <div class="form-group">
+        <label for="title" class="col-sm-2 control-label">分类名称</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="title" name="title" placeholder="Title" value="{$cateInfo.title}" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="sort" class="col-sm-2 control-label">排序</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="sort" name="sort" placeholder="Sort"  value="{$cateInfo.sort}" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">状态</label>
+        <input type="hidden" value="{$cateInfo.status}" id="status">
+        <div class="col-sm-10" id="radio">
+            <label class="radio-inline">
+                <input type="radio" name="status" value="1" {eq name="$cateInfo.status" value="1"} checked {/eq}> 显示
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="status" value="0" {eq name="$cateInfo.status" value="0"} checked {/eq}> 隐藏
+            </label>
+        </div>
+    </div>
+    <input type="hidden" value="{$cateInfo.id}" name="id">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success" id="submit" >提交修改</button>
+        </div>
+    </div>
+</form>
+<script>
+    $(function inputSu() {
+        var title = $('#title').val();
+        var sort = $('#sort').val();
+        var status = $('#status').val();
+        $('#submit').on('click',function () {
+            var titleInput = $('#title').val();
+            var sortInput = $('#sort').val();
+            var radio = $("input[type='radio']:checked").val();
+            if(titleInput == title && sortInput == sort && radio == status){
+                dialog.error('没有进行任何修改，无法保存');
+                return false;
+            }
+            return true;
+        });
+    });
+</script>

@@ -1,0 +1,20 @@
+<div class="thumbnail">
+    {eq name="$Think.session.admin_level" value="1"}
+    <ul class="nav nav-pills nav-stacked">
+        <li class="navbar-header h4">系统管理</li>
+        <li><a href="{:url('admin/site/index')}"><span class="glyphicon glyphicon-cog"></span>&nbsp;网站管理</a></li>
+    </ul>
+    {/eq}
+    <ul class="nav nav-pills nav-stacked">
+        <li class="navbar-header h4">用户管理</li>
+        <li><a href="{:url('admin/user/userlist')}"><span class="glyphicon glyphicon-user"></span>&nbsp;用户列表</a></li>
+    </ul>
+
+    <ul class="nav nav-pills nav-stacked">
+        <li class="navbar-header h4">文章管理</li>
+        {eq name="$Think.session.admin_level" value="1"}
+        <li><a href="{:url('admin/cate/cateList')}"><span class="glyphicon glyphicon-th-list"></span>&nbsp;分类管理</a></li>
+        {/eq}
+        <li><a href="{:url('admin/article/articleList')}"><span class="glyphicon glyphicon-book"></span>&nbsp;文章管理</a></li>
+    </ul>
+</div>

@@ -1,0 +1,50 @@
+{extend name="public:base"}
+{block name="body"}
+<div class="row">
+    <div class="col-md-8">
+        <div class="page-header">
+            <h2>用户登录</h2>
+        </div>
+        <form method="post" id="login" >
+            <fieldset>
+                <div class="form-group">
+                    <label for="email">邮箱:</label>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                    <p class="help-block">用于找回密码或者登录平台</p>
+                </div>
+                <div class="form-group">
+                    <label for="password">密码:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="PassWord">
+                    <p class="help-block">密码由字母或数字组成;必须大于5,小于20位</p>
+                </div>
+            </fieldset>
+            <button type="button" class="btn btn-info btn-block" id="submit">登录</button>
+        </form>
+    </div>
+    <script>
+        $(function () {
+            $('#submit').on('click',function () {
+                //alert($('#login').serialize());
+                $.ajax({
+                    type:'post',
+                    url:"{:url('index/user/loginCheck')}",
+                    data:$('#login').serialize(),
+                    dataType:'json',
+                    success:function (data) {
+                        switch (data.status){
+                            case -1:
+                            case 0:
+                                dialog.error(data.message);
+                                break;
+                            case 1:
+                                //alert(data.message);
+                                window.location.href="/";
+                                break;
+                        }
+                    }
+                });
+            });
+        })
+    </script>
+{/block}
+

@@ -1,0 +1,63 @@
+{layout name='public:layout' /}
+<h4 class="text-success text-center">站点管理</h4>
+<form class="form-horizontal" action="{:url('site/save')}" method="post" onSubmit="return inputSu();">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">站点名称:</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="{$siteInfo.name}" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="keywords" class="col-sm-2 control-label">关键词:</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Keywords"  value="{$siteInfo.keywords}" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="desc" class="col-sm-2 control-label">站点描述:</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="3" id="desc" name="desc" placeholder="Desc" style="min-height: 200px;">{$siteInfo.desc}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">网站是否开启:</label>
+        <div class="col-sm-10" id="open">
+            <label class="radio-inline">
+                <input type="radio" name="is_open" value="1" {eq name="$siteInfo.is_open" value="1"} checked {/eq}> 开启
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="is_open" value="0" {eq name="$siteInfo.is_open" value="0"} checked {/eq}> 关闭
+            </label>
+        </div>
+    </div>
+    <input type="hidden" value="{$siteInfo.id}" name="id">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success" id="submit" >提交修改</button>
+        </div>
+    </div>
+</form>
+<script>
+    $(function inputSu() {
+        var name = "{$siteInfo.name}";
+        var keywords = "{$siteInfo.keywords}";
+        var desc = "{$siteInfo.desc}";
+        var open = "{$siteInfo.is_open}";
+        $('#submit').on('click',function () {
+            var nameInput = $('#name').val();
+            var keywordsInput = $('#keywords').val();
+            var descInput = $('#desc').val();
+            var radio = $("input[type='radio']:checked").val();
+
+            if(nameInput == name && keywordsInput == keywords && radio == open && descInput == desc){
+                dialog.error('没有进行任何修改，无法保存');
+                return false;
+            }else{
+                return true;
+            }
+
+
+        });
+    });
+</script>

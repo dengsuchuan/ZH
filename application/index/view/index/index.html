@@ -1,0 +1,249 @@
+{extend name="public:base"}
+{block name="body"}
+    <div class="row">
+        <div class="col-md-8">
+            <div class="page-header">
+                <h2>{$cateName|default='首页'}·全部文章</h2>
+            </div>
+            {volist name="$artList" id="list" empty="$empty"}
+            <div class=" thumbnail">
+                <legend>
+                    <!-- 触发模态框 -->
+                    <div class="artName">
+                        <span class="glyphicon glyphicon-file"></span>
+                        <a data-toggle="modal" data-target="#myModal{$list.id}" style="cursor:pointer " class="artName" >{$list.title}</a>
+                        <input type="hidden" value="{$list.id}" name="art_id">
+                    </div>
+                    <!-- 模态框（Modal） -->
+                    <div class="modal fade" id="myModal{$list.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">{$list.title}</h4>
+                                </div>
+                                <div class="modal-body" id="modal-body">
+                                    <!--模态框里面的全部内容-->
+                                    {$list.id|getHtmlContent}
+                                    <hr>
+                                    <!--下面是用户评论区域-->
+                                    <div class="text-center">【发表评论】</div>
+                                    <input type="hidden" value="{$user_id = $Think.session.user_id|default=0}">
+                                    {if $Think.session.user_id}
+                                    <input type="hidden" value="{$Think.session.user_id}" id="userId">
+                                    <!--<p>用户:{$Think.session.user_name}</p>-->
+                                    <div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="3" id="textarea{$list.id}"  style="resize:none" ></textarea>
+                                        </div>
+                                        <button class="btn btn-success btnText">
+                                            <span class="glyphicon glyphicon-send"></span> 提交
+                                            <input type="hidden" value="{$list.id}" class="artId">
+                                            <input type="hidden" value="{$Think.session.user_id}" class="userId">
+                                        </button>
+                                        <br><br>
+                                        <div id="buttonLog"></div>
+                                    </div>
+                                    <script>
+                                        $(function () {
+                                            $('.btnText').on('click',function () {
+                                                var artId = $(this).find('.artId').val();
+                                                var userId = $(this).find('.userId').val();
+                                                var content = $('#textarea'+artId).val();
+
+                                                var userName = $('#username').text();
+                                                if(content.length <= 5){
+                                                    dialog.error('评论内容不得小于6个字符');
+                                                    window.location.blink();
+                                                }
+                                                //下面是保存评论并异步加载到评论展示框
+                                                $.ajax({
+                                                    type:'get',
+                                                    url:"{:url('saveCom')}",
+                                                    data:{'art_id':artId,'user_id':userId,'content':content},
+                                                    dataType:'json',
+                                                    success:function (data) {
+                                                        if(!data){
+                                                            $("#buttonLog").html("<div class='alert alert-danger alert-dismissable'>\n" +
+                                                                "\t<button type='button' class='close' data-dismiss='alert'\n" +
+                                                                "\t\t\taria-hidden='true'>\n" +
+                                                                "\t\t&times;\n" +
+                                                                "\t</button>\n" +
+                                                                "\t错误！请进行一些更改。\n" +
+                                                                "</div>");
+                                                        }else{
+                                                            //alert('评论成功')
+                                                            var myDate = new Date();
+                                                            var time = myDate.toLocaleString( );
+                                                            var html = $(".modal-comments").html();
+                                                            var ajaxHtml = "<div class='well col-md-12'><a href='#' style='font-size:15px;padding-top:2px;'> <span class='glyphicon glyphicon-user'></span> 用户:"+userName+"</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='#' style='font-size:15px;padding-top:2px;'> <span class='glyphicon glyphicon-time'></span> 时间:"+time+" </a><div class='col-md-12'><p style='font-size:20px;'>"+content+"</p></div></div>";
+                                                            $(".modal-comments").html(ajaxHtml+html);
+
+                                                            $("#buttonLog").html("<div class='alert alert-success alert-dismissable' style='font-size: 15px'>\n" +
+                                                                "\t<button type='button' class='close' data-dismiss='alert'\n" +
+                                                                "\t\t\taria-hidden='true'>\n" +
+                                                                "\t\t&times;\n" +
+                                                                "\t</button>\n" +
+                                                                "\t评论成功\n" +
+                                                                "</div>");
+
+                                                        }
+                                                    }
+                                                });
+                                                $('#textarea'+artId).val(" ");
+                                                window.location.blink();
+                                            });
+                                        });
+                                    </script>
+                                    <!--接下来发表评论-->
+
+                                    {else/}
+                                    <span>还没有登录哦，请先登录<a href="{:url('user/login')}">【点击登录】</a></span>
+                                    {/if}
+                                    <hr style="background-color: green;height:2px;">
+                                    <div class="row pre-scrollable">
+                                        <div class="modal-comments"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                    <button type="button" class="btn btn-success fav"><input type="hidden" value="{$list.id}" class='favInputArtId'> <input type="hidden" value="{$list.id,$user_id|getFav}" id="fav{$list.id}"> <span class="glyphicon glyphicon-bookmark"></span>
+                                        <span id="favInfo{$list.id}"></span>
+                                    </button>
+                                    <button type="button" class="btn btn-primary like"><input type="hidden" value="{$list.id}"> <span class="glyphicon glyphicon-heart"></span> 点赞 +<span id="likeCount{$list.id}">{$list.id|getLink}</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 模态框结束 -->
+                </legend>
+                <marquee direction="left" behavior="alternate" scrollamount="5">
+                <ol class="breadcrumb text-center" style="width:550px;">
+                    <li ><a>作者: {$list.user_id|getUserName}</a></li>
+                    <li><a href="{:url('index/index/index',['cate_id'=>$list.cate_id])}">分类: {$list.cate_id|getCate}</a></li>
+                    <li><a>发表日期: {$list.create_time|date='Y-m-d H:i:s'}</a></li>
+                    <li><a>阅读量: {$list.pv}</a></li>
+                </ol>
+                </marquee>
+                <div class="comments">
+                    <div>
+                        <img width="100" height="100" class="img-rounded" style="float:left;margin-right: 4px" src="/uploads/{$list.title_img}">
+                        <p style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$list.content|getArtContent}</p>
+                    </div>
+                </div>
+                <p style="clear: both"></p>
+            </div>
+            <br>
+            {/volist}
+            <div class="text-center">
+                {$artList|raw}
+            </div>
+        </div>
+        <script>
+            $(function () {
+                //下面是用户点击标题时从服务器获取该标题文章的评论内容还有阅读量+1 外加检查收藏状态
+               $(".artName").on('click',function () {
+                   $(".modal-comments").html("  ");
+                   $("#buttonLog").html("  ");
+                   var artId = $(this).find('input').val();
+
+                   //显示收藏信息
+                   var favInfo = $('#fav'+artId).val();
+                   favInfo = parseInt(favInfo);
+                   if(favInfo){
+                       $('#favInfo'+artId).html('已收藏');
+                   }else{
+                       $('#favInfo'+artId).html('未收藏');
+                   }
+                    //下面是获取所有评论并阅读量+1
+                   $.ajax({
+                       type:'get',
+                       url:"{:url('getModalComments')}",
+                       data:{'artId':artId},
+                       dataType:'json',
+                       success:function (data) {
+                           //console.log(data);
+                           var html = null;
+                           for(var count = 0;count < data.length;count++){
+                               //var str = "<h2>内容:"+data[count].content+" 用户ID:"+data[count].id+"</h2><br>";
+                               var str = "<div class='well col-md-12'>" +
+                               "<a href='#' style='font-size:15px;padding-top:2px;'> <span class='glyphicon glyphicon-user'></span> 用户:"+data[count].name+"</a>&nbsp;&nbsp;|&nbsp;&nbsp;" +
+                               "<a href='#' style='font-size:15px;padding-top:2px;'> <span class='glyphicon glyphicon-time'></span> 时间:"+new Date(data[count].create_time * 1000).toLocaleString().replace(/:\d{1,2}$/,' ')+"</a>" +
+                               "<div class='col-md-12'>" +
+                               "<p style='font-size:20px;'>"+data[count].content.replace(/<[^>]+>/g,"")+"</p>" +
+                               "</div>" +
+                               "</div>"
+                               html += str;
+                           }
+                           html = html.replace('null', ' ');
+                           $(".modal-comments").html(html);
+
+
+                       }
+                   });
+               })
+
+                //下面是收藏功能
+                $(".fav").on('click',function () {
+                    if($('#userId').val() == null){
+                        dialog.error('登陆后才可以收藏哦');
+                        return false;
+                    }
+                    var artId = $(this).find('.favInputArtId').val();
+                    var userId = $("#userId").val();
+
+                    var favInfo = $('#fav'+artId).val();
+                    favInfo = parseInt(favInfo);
+                    if(favInfo){
+                        dialog.error('已经收藏了哦');
+                    }else{
+                        $.ajax({
+                            type:'get',
+                            url:"{:url('fav')}",
+                            data:{'art_id':artId,'user_id':userId},
+                            dataType:'json',
+                            success:function (data) {
+                                if(data){
+                                    $('#favInfo'+artId).html('收藏成功');
+                                    $('#fav'+artId).val(1);
+                                }
+                            }
+                        });
+                    }
+                });
+
+               //下面是点赞功能
+                $(".like").on('click',function () {
+                    if($('#userId').val() == null){
+                        dialog.error('登陆后才可以点赞哦');
+                        return false;
+                    }
+                    var artId = $(this).find('input').val();
+                    var userId = $("#userId").val();
+                    var count = $('#likeCount'+artId).html();
+                    $.ajax({
+                        type:'get',
+                        url:"{:url('like')}",
+                        data:{'art_id':artId,'user_id':userId},
+                        dataType:'json',
+                        success:function (data) {
+                            //alert(data);
+                            //console.log(data);
+                            if(data){
+                                //$('.likeCount').html(parseInt(count)+1);
+                                //alert(data);
+                                $('#likeCount'+artId).html(parseInt(count)+1);
+                                //alert('谢谢支持！');
+                            }else{
+                                dialog.error('感谢支持，你已经点过赞了哦，不能重复点赞！');
+                            }
+                        }
+                    });
+
+                });
+
+
+
+            });
+        </script>
+{/block}

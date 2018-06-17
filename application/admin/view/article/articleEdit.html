@@ -1,0 +1,64 @@
+{layout name='public:layout' /}
+{block name="body"}
+<div class="row">
+    <div class="col-md-12" style="margin-bottom: 30px;">
+        <div class="page-header">
+            <h2>修改文章</h2>
+        </div>
+        <form method="post" id="login" action="{:url('article/doSave')}" enctype="multipart/form-data" onSubmit="return inputSu();">
+            <input type="hidden" value="{$articleInfo.title_img}" name="title_img">  <!--旧的-->
+            <input type="hidden" name="user_id" value="{$Think.session.user_id}">
+            <fieldset>
+                <div class="form-group">
+                    <label for="title">标题:</label>
+                    <input type="text" class="form-control" id="title" name="title" placeholder="articleTitle" value="{$articleInfo.title}">
+                    <input type="hidden" value="{$articleInfo.id}" name="id">
+                </div>
+                <div class="form-group">
+                    <label for="cate_id">栏目:</label>
+                    <select class="form-control" id="cate_id" name="cate_id">
+                        {volist name="$cateInfo" id="list"}
+                        <option value="{$list.id}"  {eq name="$articleInfo.cate_id" value="$list.id"} selected {/eq} >{$list.title}</option>
+                        {/volist}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="content">内容:</label>
+                    <div hidden id="contentDb">{$articleInfo.content}</div>
+                    <textarea class="form-control" rows="3" id="content" name="content" placeholder="ArticleContent" style="min-height: 300px;">{$articleInfo.content}</textarea>
+                    <script type="text/javascript">
+                        new nicEditor({iconsPath:"/static/js/nicEditorIcons.gif"}).panelInstance('content');
+                    </script>
+                </div>
+                <div class="form-group">
+                    <label for="new_img">标题图片:</label>
+                    <input type="file" id="new_img" name="new_img" class="form-control">
+                    <p class="help-block">文章对应标题的图片</p>
+                </div>
+            </fieldset>
+            <button type="submit" class="btn btn-info btn-block" id="save">发表</button>
+        </form>
+        <script>
+            $(function inputSu() {
+                var title = "{$articleInfo.title}";
+                //var content = $('#contentDb').text();
+                $('#save').on('click',function () {
+                    var inputTitle = $('#title').val();
+                    var inputImg = $('#new_img').val();
+                    //var inputContent = $('#content').text();
+                    //dialog.error(content+"#####################"+inputContent);
+                    //dialog.error(content+"#####################"+inputContent);
+                    // if(title == inputTitle  && inputImg == ""){
+                    //     dialog.error("没有进行任何修改，无法保存！");
+                    //     return false;
+                    // }else{
+                    //    // console.log(inputImg);
+                    //    // alert(inputImg);
+                    //     return true;
+                    // }
+
+                });
+            });
+        </script>
+    </div>
+    {/block}
