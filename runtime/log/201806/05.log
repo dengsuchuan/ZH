@@ -1,0 +1,1185 @@
+---------------------------------------------------------------
+[ 2018-06-05T18:46:04+08:00 ] 127.0.0.1 GET /
+[ info ] zh.me/ [运行时间：0.523384s][吞吐率：1.91req/s] [内存消耗：3,276.81kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:46:06+08:00 ] 127.0.0.1 GET /index/user/login.html
+[ info ] zh.me/index/user/login.html [运行时间：0.137427s][吞吐率：7.28req/s] [内存消耗：2,863.33kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195565',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\user\login.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:46:15+08:00 ] 127.0.0.1 POST /index/user/logincheck.html
+[ info ] zh.me/index/user/logincheck.html [运行时间：0.113668s][吞吐率：8.80req/s] [内存消耗：2,960.21kb] [文件加载：74]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '37',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195567',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'root@root.com',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:46:20+08:00 ] 127.0.0.1 POST /index/user/logincheck.html
+[ info ] zh.me/index/user/logincheck.html [运行时间：0.074575s][吞吐率：13.41req/s] [内存消耗：2,960.23kb] [文件加载：74]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195567',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'root@root.com',
+  'password' => '123456789',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:46:25+08:00 ] 127.0.0.1 GET /index/user/login.html
+[ info ] zh.me/index/user/login.html [运行时间：0.067523s][吞吐率：14.81req/s] [内存消耗：2,863.35kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195567',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\user\login.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:46:32+08:00 ] 127.0.0.1 GET /index/user/register.html
+[ info ] zh.me/index/user/register.html [运行时间：0.103223s][吞吐率：9.69req/s] [内存消耗：2,862.16kb] [文件加载：74]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195586',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\user\register.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:01+08:00 ] 127.0.0.1 POST /index/user/insert.html
+[ info ] zh.me/index/user/insert.html [运行时间：0.122566s][吞吐率：8.16req/s] [内存消耗：2,951.36kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '103',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195593',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dengsuchuan',
+  'email' => 'user@user.com',
+  'mobile' => '13404086094',
+  'password' => '123456789',
+  'password_confirm' => '123456789',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:11+08:00 ] 127.0.0.1 POST /index/user/insert.html
+[ info ] zh.me/index/user/insert.html [运行时间：0.084023s][吞吐率：11.90req/s] [内存消耗：2,951.32kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '103',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195593',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dengsuchuan',
+  'email' => 'user@user.com',
+  'mobile' => '11111111111',
+  'password' => '123456789',
+  'password_confirm' => '123456789',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:18+08:00 ] 127.0.0.1 POST /index/user/insert.html
+[ info ] zh.me/index/user/insert.html [运行时间：0.120706s][吞吐率：8.28req/s] [内存消耗：3,038.03kb] [文件加载：77]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '103',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195593',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dengsuchuan',
+  'email' => 'user@user.com',
+  'mobile' => '13392935589',
+  'password' => '123456789',
+  'password_confirm' => '123456789',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:18+08:00 ] 127.0.0.1 GET /
+[ info ] zh.me/ [运行时间：0.135405s][吞吐率：7.39req/s] [内存消耗：3,306.95kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195593',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:21+08:00 ] 127.0.0.1 GET /admin/userList.html
+[ info ] zh.me/admin/userList.html [运行时间：0.098434s][吞吐率：10.16req/s] [内存消耗：2,521.60kb] [文件加载：71]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/user/userList',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195639',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userList.html [ array (
+  0 => 'title',
+  1 => 'empty',
+  2 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:26+08:00 ] 127.0.0.1 GET /admin/user/loginOut.html
+[ info ] zh.me/admin/user/loginOut.html [运行时间：0.071274s][吞吐率：14.03req/s] [内存消耗：1,254.61kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/userList.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:47:29+08:00 ] 127.0.0.1 GET /
+[ info ] zh.me/ [运行时间：0.074606s][吞吐率：13.40req/s] [内存消耗：3,278.04kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/user/loginOut.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195646',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:05+08:00 ] 127.0.0.1 GET /index/user/login.html
+[ info ] zh.me/index/user/login.html [运行时间：0.075884s][吞吐率：13.18req/s] [内存消耗：2,863.33kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\user\login.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:16+08:00 ] 127.0.0.1 POST /index/user/logincheck.html
+[ info ] zh.me/index/user/logincheck.html [运行时间：0.082565s][吞吐率：12.11req/s] [内存消耗：2,964.65kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195685',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'admin@admin.com',
+  'password' => '123456789',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:16+08:00 ] 127.0.0.1 GET /
+[ info ] zh.me/ [运行时间：0.116493s][吞吐率：8.58req/s] [内存消耗：3,307.16kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195685',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:18+08:00 ] 127.0.0.1 GET /admin/userList.html
+[ info ] zh.me/admin/userList.html [运行时间：0.072143s][吞吐率：13.86req/s] [内存消耗：2,529.73kb] [文件加载：71]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/user/userList',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195697',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userList.html [ array (
+  0 => 'title',
+  1 => 'empty',
+  2 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:29+08:00 ] 127.0.0.1 GET /admin/cate.html
+[ info ] zh.me/admin/cate.html [运行时间：0.088988s][吞吐率：11.24req/s] [内存消耗：2,525.93kb] [文件加载：71]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/cate',
+  'route' => 'admin/cate/cateList',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/userList.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195699',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\cate\cateList.html [ array (
+  0 => 'title',
+  1 => 'empty',
+  2 => 'cateList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:30+08:00 ] 127.0.0.1 GET /admin/userList.html
+[ info ] zh.me/admin/userList.html [运行时间：0.070963s][吞吐率：14.09req/s] [内存消耗：2,529.74kb] [文件加载：71]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/user/userList',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/cate.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195710',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userList.html [ array (
+  0 => 'title',
+  1 => 'empty',
+  2 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:31+08:00 ] 127.0.0.1 GET /admin/userEdit/5.html
+[ info ] zh.me/admin/userEdit/5.html [运行时间：0.089317s][吞吐率：11.20req/s] [内存消耗：2,501.06kb] [文件加载：69]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userEdit/:id',
+  'route' => 'admin/user/userEdit',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+    'id' => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/userList.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195710',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userEdit.html [ array (
+  0 => 'title',
+  1 => 'userInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:41+08:00 ] 127.0.0.1 GET /admin/userEdit/5.html
+[ info ] zh.me/admin/userEdit/5.html [运行时间：0.064000s][吞吐率：15.63req/s] [内存消耗：2,500.97kb] [文件加载：69]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userEdit/:id',
+  'route' => 'admin/user/userEdit',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+    'id' => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195712',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userEdit.html [ array (
+  0 => 'title',
+  1 => 'userInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:45+08:00 ] 127.0.0.1 GET /admin/user/loginOut.html
+[ info ] zh.me/admin/user/loginOut.html [运行时间：0.020971s][吞吐率：47.69req/s] [内存消耗：1,254.67kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/userEdit/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195722',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:46+08:00 ] 127.0.0.1 GET /
+[ info ] zh.me/ [运行时间：0.071885s][吞吐率：13.91req/s] [内存消耗：3,278.04kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/user/loginOut.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195725',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:48:48+08:00 ] 127.0.0.1 GET /index/user/login.html
+[ info ] zh.me/index/user/login.html [运行时间：0.062322s][吞吐率：16.05req/s] [内存消耗：2,863.33kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195727',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\user\login.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:49:04+08:00 ] 127.0.0.1 POST /index/user/logincheck.html
+[ info ] zh.me/index/user/logincheck.html [运行时间：0.071780s][吞吐率：13.93req/s] [内存消耗：2,964.67kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://zh.me',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195729',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'user@user.com',
+  'password' => '123456789',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:49:04+08:00 ] 127.0.0.1 GET /
+[ info ] zh.me/ [运行时间：0.121926s][吞吐率：8.20req/s] [内存消耗：3,307.20kb] [文件加载：75]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195729',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:49:07+08:00 ] 127.0.0.1 GET /admin/userList.html
+[ info ] zh.me/admin/userList.html [运行时间：0.061317s][吞吐率：16.31req/s] [内存消耗：2,527.03kb] [文件加载：71]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/user/userList',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195745',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userList.html [ array (
+  0 => 'title',
+  1 => 'empty',
+  2 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:49:12+08:00 ] 127.0.0.1 GET /admin/userEdit/5.html
+[ info ] zh.me/admin/userEdit/5.html [运行时间：0.061085s][吞吐率：16.37req/s] [内存消耗：2,501.09kb] [文件加载：69]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userEdit/:id',
+  'route' => 'admin/user/userEdit',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+    'id' => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195748',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userEdit.html [ array (
+  0 => 'title',
+  1 => 'userInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:49:20+08:00 ] 127.0.0.1 GET /admin/userList.html
+[ info ] zh.me/admin/userList.html [运行时间：0.067099s][吞吐率：14.90req/s] [内存消耗：2,527.05kb] [文件加载：71]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/user/userList',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/userEdit/5.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195753',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userList.html [ array (
+  0 => 'title',
+  1 => 'empty',
+  2 => 'userList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T18:49:21+08:00 ] 127.0.0.1 GET /admin/userEdit/5.html
+[ info ] zh.me/admin/userEdit/5.html [运行时间：0.054694s][吞吐率：18.28req/s] [内存消耗：2,501.11kb] [文件加载：69]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userEdit/:id',
+  'route' => 'admin/user/userEdit',
+  'option' => 
+  array (
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+    'id' => '5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://zh.me/admin/userList.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AS;q=0.8,en-US;q=0.7,en-AU;q=0.6,en-XA;q=0.5,en;q=0.4',
+  'cookie' => 'PHPSESSID=caq8afrjr9ibpavtjo2i3mrk44; Hm_lvt_5a0192f8207da980c77f112b59310c12=1528195565; Hm_lpvt_5a0192f8207da980c77f112b59310c12=1528195760',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/admin/view\user\userEdit.html [ array (
+  0 => 'title',
+  1 => 'userInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File

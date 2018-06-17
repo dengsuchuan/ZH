@@ -1,0 +1,1458 @@
+---------------------------------------------------------------
+[ 2018-04-28T14:38:26+08:00 ] 0.0.0.0 GET /tp5.1/public/application/index/controller/Demo01.php?_ijt=cv2t815j5do1nmsctu4jkt0mmh
+[ info ] localhost/tp5.1/public/application/index/controller/Demo01.php?_ijt=cv2t815j5do1nmsctu4jkt0mmh [运行时间：0.312746s][吞吐率：3.20req/s] [内存消耗：997.66kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-a2729a93=98d88a9f-e2aa-4b42-9581-8ce8545dd88d',
+)
+[ info ] [ PARAM ] array (
+  '_ijt' => 'cv2t815j5do1nmsctu4jkt0mmh',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T14:49:24+08:00 ] 127.0.0.1 GET /tp5.1/public/application/index/controller/Demo01.php
+[ info ] php.me/tp5.1/public/application/index/controller/Demo01.php [运行时间：0.197860s][吞吐率：5.05req/s] [内存消耗：996.78kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T14:49:38+08:00 ] 127.0.0.1 GET /tp5.1/public/Demo01.php
+[ info ] php.me/tp5.1/public/Demo01.php [运行时间：0.032911s][吞吐率：30.38req/s] [内存消耗：996.66kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T14:49:56+08:00 ] 127.0.0.1 GET /tp5.1/public/application/index/controller/Demo01.php
+[ info ] php.me/tp5.1/public/application/index/controller/Demo01.php [运行时间：0.079623s][吞吐率：12.56req/s] [内存消耗：996.78kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T14:50:08+08:00 ] 127.0.0.1 GET /tp5.1/public/public/index.php
+[ info ] php.me/tp5.1/public/public/index.php [运行时间：0.076025s][吞吐率：13.15req/s] [内存消耗：996.72kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T14:50:24+08:00 ] 127.0.0.1 GET /tp5.1/public/index.php
+[ info ] php.me/tp5.1/public/index.php [运行时间：0.066628s][吞吐率：15.01req/s] [内存消耗：948.73kb] [文件加载：45]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T17:46:39+08:00 ] 127.0.0.1 GET /tp5.1/public/
+[ info ] php.me/tp5.1/public/ [运行时间：0.193689s][吞吐率：5.16req/s] [内存消耗：949.05kb] [文件加载：45]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://php.me/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T17:46:47+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo3/test
+[ info ] php.me/tp5.1/public/index/Demo3/test [运行时间：0.125788s][吞吐率：7.95req/s] [内存消耗：1,218.73kb] [文件加载：54]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T17:46:50+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo3
+[ info ] php.me/tp5.1/public/index/Demo3 [运行时间：0.140219s][吞吐率：7.13req/s] [内存消耗：1,231.88kb] [文件加载：55]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T17:58:01+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn_01
+[ info ] php.me/tp5.1/public/index/Demo4/conn_01 [运行时间：0.177355s][吞吐率：5.64req/s] [内存消耗：1,819.23kb] [文件加载：56]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\WebServer\www\tp5.1\thinkphp\library\think\Response.php:358]
+---------------------------------------------------------------
+[ 2018-04-28T18:00:37+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn_01
+[ info ] php.me/tp5.1/public/index/Demo4/conn_01 [运行时间：0.060914s][吞吐率：16.42req/s] [内存消耗：999.51kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[D:\WebServer\www\tp5.1\application\index\controller\Demo4.php:10]
+---------------------------------------------------------------
+[ 2018-04-28T18:00:45+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn_01
+[ info ] php.me/tp5.1/public/index/Demo4/conn_01 [运行时间：0.022854s][吞吐率：43.76req/s] [内存消耗：999.51kb] [文件加载：48]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[D:\WebServer\www\tp5.1\application\index\controller\Demo4.php:10]
+---------------------------------------------------------------
+[ 2018-04-28T18:00:45+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn_01
+[ info ] php.me/tp5.1/public/index/Demo4/conn_01 [运行时间：0.031744s][吞吐率：31.50req/s] [内存消耗：998.96kb] [文件加载：49]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T18:00:46+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn_01
+[ info ] php.me/tp5.1/public/index/Demo4/conn_01 [运行时间：0.017236s][吞吐率：58.02req/s] [内存消耗：998.96kb] [文件加载：49]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T18:00:52+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.087916s][吞吐率：11.37req/s] [内存消耗：1,848.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019417s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.013651s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:04+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.036301s][吞吐率：27.55req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:04+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.025930s][吞吐率：38.57req/s] [内存消耗：1,819.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\WebServer\www\tp5.1\thinkphp\library\think\Response.php:358]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:05+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.023421s][吞吐率：42.70req/s] [内存消耗：1,819.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\WebServer\www\tp5.1\thinkphp\library\think\Response.php:358]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:19+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.042943s][吞吐率：23.29req/s] [内存消耗：1,819.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\db\Query could not be converted to string[D:\WebServer\www\tp5.1\thinkphp\library\think\Response.php:358]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:20+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.081464s][吞吐率：12.28req/s] [内存消耗：1,864.29kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001231s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002780s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* IS NULL LIMIT 1' at line 1[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:20+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.048328s][吞吐率：20.69req/s] [内存消耗：1,864.29kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011655s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001786s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* IS NULL LIMIT 1' at line 1[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:36+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.038714s][吞吐率：25.83req/s] [内存消耗：1,864.29kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001488s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* IS NULL LIMIT 1' at line 1[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:36+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.064619s][吞吐率：15.48req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010960s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002058s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:37+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.038643s][吞吐率：25.88req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011004s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:01:37+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.035427s][吞吐率：28.23req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001518s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001743s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:03:09+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.034772s][吞吐率：28.76req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002151s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:03:10+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.037801s][吞吐率：26.45req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010842s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001922s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:03:10+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.039335s][吞吐率：25.42req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001631s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-04-28T18:03:10+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.045728s][吞吐率：21.87req/s] [内存消耗：1,848.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011965s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.004870s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2018-04-28T19:23:29+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.039013s][吞吐率：25.63req/s] [内存消耗：1,839.63kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:24:27+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.040186s][吞吐率：24.88req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:24:28+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.046627s][吞吐率：21.45req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:24:29+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.028823s][吞吐率：34.69req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:24:29+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.049797s][吞吐率：20.08req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:25:10+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.037559s][吞吐率：26.62req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:25:11+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.046752s][吞吐率：21.39req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:25:11+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.052577s][吞吐率：19.02req/s] [内存消耗：1,839.87kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T19:27:17+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.037661s][吞吐率：26.55req/s] [内存消耗：1,827.68kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:27:17+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.047788s][吞吐率：20.93req/s] [内存消耗：1,827.68kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:27:27+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.040497s][吞吐率：24.69req/s] [内存消耗：1,827.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:27:27+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.046747s][吞吐率：21.39req/s] [内存消耗：1,827.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:27:28+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.037553s][吞吐率：26.63req/s] [内存消耗：1,827.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:01+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.037094s][吞吐率：26.96req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:02+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.044927s][吞吐率：22.26req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:02+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.054930s][吞吐率：18.20req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:02+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.049939s][吞吐率：20.02req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:02+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.039099s][吞吐率：25.58req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:06+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.038112s][吞吐率：26.24req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:07+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.040682s][吞吐率：24.58req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:07+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.040753s][吞吐率：24.54req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:07+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.034933s][吞吐率：28.63req/s] [内存消耗：1,829.37kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:17+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.049045s][吞吐率：20.39req/s] [内存消耗：1,829.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:17+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.039381s][吞吐率：25.39req/s] [内存消耗：1,829.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:17+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.045338s][吞吐率：22.06req/s] [内存消耗：1,829.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:17+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.036592s][吞吐率：27.33req/s] [内存消耗：1,829.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T19:28:20+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn1
+[ info ] php.me/tp5.1/public/index/Demo4/conn1 [运行时间：0.038310s][吞吐率：26.10req/s] [内存消耗：1,850.21kb] [文件加载：52]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010429s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT `username` FROM `users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-04-28T19:28:23+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn2
+[ info ] php.me/tp5.1/public/index/Demo4/conn2 [运行时间：0.033741s][吞吐率：29.64req/s] [内存消耗：1,829.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T20:09:37+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn3
+[ info ] php.me/tp5.1/public/index/Demo4/conn3 [运行时间：0.077201s][吞吐率：12.95req/s] [内存消耗：1,829.04kb] [文件加载：51]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T20:26:15+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo4/conn3
+[ info ] php.me/tp5.1/public/index/Demo4/conn3 [运行时间：0.143111s][吞吐率：6.99req/s] [内存消耗：1,964.88kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-28T20:26:20+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/find
+[ info ] php.me/tp5.1/public/index/Demo5/find [运行时间：0.064458s][吞吐率：15.51req/s] [内存消耗：1,962.36kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010897s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2018-04-28T20:28:53+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/find
+[ info ] php.me/tp5.1/public/index/Demo5/find [运行时间：0.078094s][吞吐率：12.81req/s] [内存消耗：1,962.67kb] [文件加载：63]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_01.password' doesn't exist[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T20:28:54+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/find
+[ info ] php.me/tp5.1/public/index/Demo5/find [运行时间：0.055464s][吞吐率：18.03req/s] [内存消耗：1,962.67kb] [文件加载：63]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011585s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_01.password' doesn't exist[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:675]
+---------------------------------------------------------------
+[ 2018-04-28T20:29:28+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/find
+[ info ] php.me/tp5.1/public/index/Demo5/find [运行时间：0.051576s][吞吐率：19.39req/s] [内存消耗：1,962.90kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010721s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`password` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2018-04-28T20:34:16+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/find
+[ info ] php.me/tp5.1/public/index/Demo5/find [运行时间：0.033812s][吞吐率：29.58req/s] [内存消耗：1,963.66kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT `id` AS `编号`,`username` AS `用户名`,`password` AS `密码` FROM `users` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001583s ]
+---------------------------------------------------------------
+[ 2018-04-28T20:45:24+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/select
+[ info ] php.me/tp5.1/public/index/Demo5/select [运行时间：0.050767s][吞吐率：19.70req/s] [内存消耗：1,966.57kb] [文件加载：58]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001029s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`age` FROM `users` WHERE  `age` > 20 [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-04-28T20:54:01+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/insert
+[ info ] php.me/tp5.1/public/index/Demo5/insert [运行时间：0.054896s][吞吐率：18.22req/s] [内存消耗：1,928.88kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001370s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.003134s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`username` , `password` , `age`) VALUES ('迪迦奥特曼' , 'adminroot' , 999) [ RunTime:0.004774s ]
+---------------------------------------------------------------
+[ 2018-04-28T20:54:30+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/insert
+[ info ] php.me/tp5.1/public/index/Demo5/insert [运行时间：0.059036s][吞吐率：16.94req/s] [内存消耗：1,969.77kb] [文件加载：63]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001941s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.000795s ]
+[ error ] [10501]SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'age' at row 1[D:\WebServer\www\tp5.1\thinkphp\library\think\db\Connection.php:754]
+---------------------------------------------------------------
+[ 2018-04-28T21:07:49+08:00 ] 127.0.0.1 GET /tp5.1/public/index/Demo5/insertAll
+[ info ] php.me/tp5.1/public/index/Demo5/insertAll [运行时间：0.061054s][吞吐率：16.38req/s] [内存消耗：1,933.16kb] [文件加载：57]
+[ info ] [ LANG ] D:\WebServer\www\tp5.1\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'php.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=1|4; PHPSESSID=46a4s8pvh1rbsfbdaujan76m1j',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001217s ] mysql:host=127.0.0.1;dbname=test_01;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] INSERT INTO `users` (`username` , `password` , `age`) VALUES ( '泰罗奥特曼','adminroot',999 ) , ( '赛文奥特曼','adminroot',999 ) [ RunTime:0.005554s ]

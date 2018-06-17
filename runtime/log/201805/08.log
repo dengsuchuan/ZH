@@ -1,0 +1,541 @@
+---------------------------------------------------------------
+[ 2018-05-08T19:01:45+08:00 ] 127.0.0.1 GET /index/index/index/cate_id/4.html
+[ info ] zh.me/index/index/index/cate_id/4.html [运行时间：0.094138s][吞吐率：10.62req/s] [内存消耗：2,987.57kb] [文件加载：79]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/index/cate_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'cateName',
+  6 => 'artList',
+  7 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002892s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001968s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 4 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 4 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.002092s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 31 and `user_id` = 34 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 31 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 28 and `user_id` = 34 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 28 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:01:46+08:00 ] 127.0.0.1 GET /index/index/index/cate_id/3.html
+[ info ] zh.me/index/index/index/cate_id/3.html [运行时间：0.095769s][吞吐率：10.44req/s] [内存消耗：2,964.57kb] [文件加载：79]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/index/cate_id/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'cateName',
+  6 => 'artList',
+  7 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001734s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.002388s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 3 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 3 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 34 and `user_id` = 34 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 34 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:01:46+08:00 ] 127.0.0.1 GET /index/index/index/cate_id/2.html
+[ info ] zh.me/index/index/index/cate_id/2.html [运行时间：0.079527s][吞吐率：12.57req/s] [内存消耗：2,956.62kb] [文件加载：79]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/index/cate_id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'cateName',
+  6 => 'artList',
+  7 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010651s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 2 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 2 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 30 and `user_id` = 34 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 30 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:01:47+08:00 ] 127.0.0.1 GET /index/index/index/cate_id/1.html
+[ info ] zh.me/index/index/index/cate_id/1.html [运行时间：0.093571s][吞吐率：10.69req/s] [内存消耗：2,979.03kb] [文件加载：79]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/index/cate_id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'cateName',
+  6 => 'artList',
+  7 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010126s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 1 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `cate_id` = 1 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 33 and `user_id` = 34 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 33 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 29 and `user_id` = 34 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 29 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:01:48+08:00 ] 127.0.0.1 GET /index/index/index.html?keyword=
+[ info ] zh.me/index/index/index.html?keyword= [运行时间：0.132688s][吞吐率：7.54req/s] [内存消耗：3,052.56kb] [文件加载：79]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/index/cate_id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010809s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.003286s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.002288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `content` LIKE '%%' LIMIT 1 [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `content` LIKE '%%' ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 34 and `user_id` = 34 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 34 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 33 and `user_id` = 34 [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 33 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 31 and `user_id` = 34 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 31 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 30 and `user_id` = 34 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 30 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 29 and `user_id` = 34 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 29 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:12:22+08:00 ] 127.0.0.1 GET /index/index/index.html?keyword=
+[ info ] zh.me/index/index/index.html?keyword= [运行时间：0.154788s][吞吐率：6.46req/s] [内存消耗：3,314.55kb] [文件加载：81]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/index/cate_id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001673s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.001516s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1  AND `content` LIKE '%%' LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1  AND `content` LIKE '%%' ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 34 and `user_id` = 34 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 34 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 33 and `user_id` = 34 [ RunTime:0.002621s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 33 [ RunTime:0.001768s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 31 and `user_id` = 34 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 31 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 30 and `user_id` = 34 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 30 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 29 and `user_id` = 34 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 29 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2018-05-08T19:14:17+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] zh.me/index/index/index.html [运行时间：0.130014s][吞吐率：7.69req/s] [内存消耗：3,051.59kb] [文件加载：79]
+[ info ] [ LANG ] D:\WebServer\www\project\ZH\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zh.me',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://zh.me/index/index/save.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-AU;q=0.8,en;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|3; PHPSESSID=b0ank3o4jinq5ua10ngpn3p7sm; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\WebServer\www\project\ZH\application/index/view\index\index.html [ array (
+  0 => 'cateList',
+  1 => 'pv',
+  2 => 'comments',
+  3 => 'empty',
+  4 => 'articleCount',
+  5 => 'artList',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010261s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article_category` [ RunTime:0.001672s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article_category` WHERE  `status` = 1 ORDER BY `sort`  asc [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_article` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user_comments` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] select c.title,count(a.id) as count
+                    from zh_article a right outer join zh_article_category c
+                    on a.cate_id = c.id
+                    group by a.cate_id; [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `pv`  desc LIMIT 0,6 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_user_comments` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_comments` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,6 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zh_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_article` WHERE  `status` = 1 ORDER BY `create_time`  desc LIMIT 0,5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 34 and `user_id` = 34 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 34 [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.001935s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 33 and `user_id` = 34 [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 33 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 31 and `user_id` = 34 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 31 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 30 and `user_id` = 34 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 30 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `content` FROM `zh_article` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_fav` WHERE `art_id` = 29 and `user_id` = 34 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `zh_user_like` WHERE `art_id` = 29 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `title` FROM `zh_article_category` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000216s ]
