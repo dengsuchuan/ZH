@@ -1,18 +1,18 @@
 <div class="col-md-4">
     <div class="page-header">
-        <h2>热门排行</h2>
+        <h3>热门排行</h3>
     </div>
     <ul class="list-group">
         {volist name="pv" id="pvList" empty="$empty"}
         <li class="list-group-item" title="{$pvList.title}">
             <marquee direction="left" behavior="alternate" scrollamount="1" scrolldelay="100">
-                <a href="{:url('index/index/index',['keyword'=>$pvList.title])}">{$pvList.title} 【阅读量: {$pvList.pv}】</a>
+                <span href="{:url('index/index/index',['keyword'=>$pvList.title])}">{$pvList.title} 【阅读量: {$pvList.pv}】</span>
             </marquee>
         {/volist}
     </ul>
 
     <div class="page-header">
-        <h2>最新评论</h2>
+        <h3>最新评论</h3>
     </div>
     <ul class="list-group">
         {volist name="$comments" id="commentsList" empty="$empty"}
@@ -25,7 +25,7 @@
     </ul>
 
     <div class="page-header">
-        <h2>站点统计</h2>
+        <h3>站点统计</h3>
     </div>
     <div class="col-md-12">
         <div class="thumbnail">

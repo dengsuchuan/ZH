@@ -40,7 +40,10 @@ function getHtmlContent($id){
 
 //过滤文章内容
 function getArtContent($content){
-    return mb_substr(strip_tags(str_replace(['&nbsp;','nbsp;','&amp;','nbsp;'],'',$content)),0,180).'......';
+    $str = mb_substr(strip_tags(str_replace(['&nbsp;','nbsp;','&amp;','nbsp;'],'',$content)),0,180).'......';
+    $str = htmlspecialchars($str);
+    return $str;
+
 }
 
 //过滤评论内容
@@ -78,7 +81,7 @@ function getUserName($userId){
 
 //截取右边的展示内容
 function msubstr($content) {
-    return mb_substr(strip_tags(str_replace(['&nbsp;','nbsp;','&amp;','nbsp;'],'',$content)),0,15).'...';
+    return substr(strip_tags(str_replace(['&nbsp;','nbsp;','&amp;','nbsp;'],'',$content)),0,15).'...';
 }
 
 

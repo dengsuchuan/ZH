@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2a24e412-f0d2-4c77-ad6b-8de40f93e50a" name="bolg.geekln.cn" url="http://bolg.geekln.cn">
+        <fileTransfer host="120.24.96.228" port="21" rootFolder="/var/www/html/bolg">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

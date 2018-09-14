@@ -1,16 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22509e48-113d-4bde-af3a-371ae8d42713" name="Default" comment="" />
+    <list default="true" id="22509e48-113d-4bde-af3a-371ae8d42713" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ZH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZH.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/common/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/common/controller/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/common/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/common/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/common/model/Cate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/common/model/Cate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/common/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/common/model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Cate.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Cate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/article/articleAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/article/articleAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/article/articleEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/article/articleEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/article/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/article/articleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/cate/cateAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/cate/cateAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/cate/cateEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/cate/cateEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/cate/cateList.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/cate/cateList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/public/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/public/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/public/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/public/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/public/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/public/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/controller/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Fav.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Fav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Like.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Like.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/Site.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/Site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/validate/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/validate/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/validate/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/validate/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/validate/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/validate/Comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/validate/Like.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/validate/Like.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/common/validate/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common/validate/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/index/insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/insert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/public/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/public/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/public/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/public/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/public/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/public/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/public/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/public/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/public/right.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/public/right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/dialog/dialog/skin/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/dialog/dialog/skin/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/dialog/dialog/skin/layer.ext.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/dialog/dialog/skin/layer.ext.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/nicEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/js/nicEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/20180519/c023170408b64bc88ce3473915244d74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201804/25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201804/26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201804/28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201804/29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201804/30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525357227-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525357447-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525440420-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525533085-05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525584674-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525769680-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1525777305-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1526478691-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/1526808309-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201805/31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201806/17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/13a4c5cef00b1f9ba8387d6dc743b9af.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/19e6a2ab76c0b5b7fbfb709841e1c430.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/1aa4ec8901c69c86c17698698a080b3e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/2aaff6ff3f89601fd7356927ff2900d9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/35343cacfba0aaa38f24c99e70cc0378.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/4511f4cbc79553b7cc6743e6ae279635.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/4cb54a7cbef7e60d67e13812c21d822a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/4d784c041ef0390c94529aecd8c892ad.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/5003af1759e6ca8546c7ab1f7585f856.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/81d15e6bd738f14b28d733754caa398a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/84b435689dda6d0f46d89976ecc4067b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/87917cab941c62b0be29e2bbf22cd645.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/8b3f782d19a58a8cd608a50bf39b0576.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/936cf4c55d2129e4372e7b5976cd71b6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/98e8efe4a5765ca6bf9b5132017003f1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/9ec69762dc4fe48f10e2aadcba0f23dc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/bfdb2506e58e2336a441853149b90ca9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c36e947d97907029e6c9f2dde8c579eb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c4e6f12f3cdeb62d1e31b844e879e0cf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/ccfdd995475ac2127ceead79458b7d50.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/db1c12b9a526b1f1c85a3ba851ee75f7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/ec6370e5e9f32240426dbd9094b2f430.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/f33e0b539bf9cf172548a78d8e253c46.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/f4683442ec2bcdc387fa06fb87e682c8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据库备份/zh.sql" beforeDir="false" afterPath="$PROJECT_DIR$/数据库备份/zh.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1772336580">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="33" />
+          <entry key="php" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="33" />
+          <entry key="PHP" value="36" />
+          <entry key="htaccess" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="50" />
+          <entry key="php" value="159" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="50" />
+          <entry key="PHP" value="159" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>trlen</find>
+      <find>mb_strlen</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/index/view/public/footer.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/cate/cateList.html" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Cate.php" />
+        <option value="$PROJECT_DIR$/application/common/controller/Base.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/article/articleEdit.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/index/view/index/insert.html" />
+        <option value="$PROJECT_DIR$/application/index/view/public/nav.html" />
+        <option value="$PROJECT_DIR$/application/admin/controller/User.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Site.php" />
+        <option value="$PROJECT_DIR$/route/route.php" />
+        <option value="$PROJECT_DIR$/application/index/view/public/header.html" />
+        <option value="$PROJECT_DIR$/application/index/view/index/index.html" />
+        <option value="$PROJECT_DIR$/application/index/view/public/right.html" />
+        <option value="$PROJECT_DIR$/application/common.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -18,11 +243,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="32" />
-    <option name="y" value="-25" />
-    <option name="width" value="1918" />
-    <option name="height" value="1048" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -36,18 +268,33 @@
           <expand>
             <path>
               <item name="ZH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZH" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ZH" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZH" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ZH" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZH" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ZH" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZH" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZH" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -56,10 +303,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hy" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,7 +336,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529253374084</updated>
-      <workItem from="1529253376471" duration="1515000" />
+      <workItem from="1529253376471" duration="1703000" />
+      <workItem from="1532953226671" duration="914000" />
+      <workItem from="1533128716788" duration="671000" />
+      <workItem from="1536559208003" duration="1988000" />
+      <workItem from="1536562310171" duration="5902000" />
+      <workItem from="1536721107812" duration="1336000" />
+      <workItem from="1536762411139" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="f">
       <created>1529253511097</created>
@@ -110,30 +369,32 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1515000" />
+    <option name="totallyTimeSpent" value="12520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19131833" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945116" weight="0.1456777" />
+      <window_info id="Structure" order="1" sideWeight="0.50054884" side_tool="true" weight="0.14514408" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32963374" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32963374" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32930845" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.26307365" />
+      <window_info active="true" anchor="right" id="Remote Host" order="4" visible="true" weight="0.24653149" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +406,183 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="f" />
     <option name="LAST_COMMIT_MESSAGE" value="f" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="503" column="9" selection-start-line="503" selection-start-column="9" selection-end-line="503" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/user/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/cate/cateAdd.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tags.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/command.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/validate/Like.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/public/left.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/cate/cateList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/user/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/article/articleList.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="115" column="57" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/index/insert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/article/articleAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/article/articleEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/public/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/public/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="23" selection-start-line="24" selection-start-column="7" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Cate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1422">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/public/right.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/public/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="130" column="34" lean-forward="true" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

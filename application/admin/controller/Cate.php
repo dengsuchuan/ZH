@@ -56,7 +56,7 @@ class Cate extends Base
         $cateList = CateModel::all();
         $this->view->assign('title','添加新栏目');
         $this->view->assign('cateList',$cateList);
-        return $this->view->fetch('cateadd');
+        return $this->view->fetch('cateAdd');
     }
 
     //删除栏目

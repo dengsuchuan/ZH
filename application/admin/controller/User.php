@@ -53,6 +53,8 @@ class User extends Base
 
     //用户列表
     public function userList(){
+        //判断用户是否登录
+        $this->isLogin();
         //1.获取当前用户的id和级别is_admin
         $data['admin_id'] = Session::get('admin_id');
         $data['admin_level'] = Session::get('admin_level');

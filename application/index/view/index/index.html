@@ -6,7 +6,7 @@
                 <h2>{$cateName|default='首页'}·全部文章</h2>
             </div>
             {volist name="$artList" id="list" empty="$empty"}
-            <div class=" thumbnail">
+            <div class=" thumbnail card">
                 <legend>
                     <!-- 触发模态框 -->
                     <div class="artName">
@@ -98,7 +98,7 @@
                                     <!--接下来发表评论-->
 
                                     {else/}
-                                    <span>还没有登录哦，请先登录<a href="{:url('user/login')}">【点击登录】</a></span>
+                                    <span>还没有登录哦，请先登录<a href="{:url('index/user/login')}">【点击登录】</a></span>
                                     {/if}
                                     <hr style="background-color: green;height:2px;">
                                     <div class="row pre-scrollable">
@@ -118,7 +118,7 @@
                     <!-- 模态框结束 -->
                 </legend>
                 <marquee direction="left" behavior="alternate" scrollamount="5">
-                <ol class="breadcrumb text-center" style="width:550px;">
+                <ol class="breadcrumb text-center" style="width:550px;opacity: 0.8">
                     <li ><a>作者: {$list.user_id|getUserName}</a></li>
                     <li><a href="{:url('index/index/index',['cate_id'=>$list.cate_id])}">分类: {$list.cate_id|getCate}</a></li>
                     <li><a>发表日期: {$list.create_time|date='Y-m-d H:i:s'}</a></li>

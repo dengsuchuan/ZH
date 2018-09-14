@@ -5,7 +5,7 @@
         <div class="page-header">
             <h2>修改文章</h2>
         </div>
-        <form method="post" id="login" action="{:url('article/doSave')}" enctype="multipart/form-data" onSubmit="return inputSu();">
+        <form method="post" id="login" action="{:url('admin/Article/doSave')}" enctype="multipart/form-data" onSubmit="return inputSu();">
             <input type="hidden" value="{$articleInfo.title_img}" name="title_img">  <!--旧的-->
             <input type="hidden" name="user_id" value="{$Think.session.user_id}">
             <fieldset>

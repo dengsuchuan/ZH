@@ -82,7 +82,7 @@ class Index extends Base
             //将查询到的栏目学校赋值到模版
             $this->assign('cateList',$cateList);
         }else{
-            $this->error('栏目不存在，请先添加栏目','index/index');
+            $this->error('栏目不存在，请先添加栏目','index/index/index');
         }
         //4.渲染模版
         return $this->view->fetch('insert');
@@ -113,7 +113,7 @@ class Index extends Base
                     $this->error($file->getError());
                 }
                 if(Article::create($data)){
-                    $this->success('发表成功，正在跳转到首页','index/index');
+                    $this->success('发表成功，正在跳转到首页','index/index/index');
                 }else{
                     $this->error('发表失败');
                 }

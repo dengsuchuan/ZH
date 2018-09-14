@@ -24,6 +24,11 @@ use think\facade\Route;
 //首页路由规划
 Route::rule('cate/:cate_id','index/index/index','get',['ext'=>'html']);
 Route::rule('keyword/:keyword','index/index/index','get',['ext'=>'html']);
+Route::rule('cate','index/index/index','get');
+Route::rule('login','index/User/login','get');
+Route::rule('register','index/User/register','get');
+Route::rule('insert','index/index/insert','get');
+//index/index/index
 
 
 //后台路由规划
@@ -35,7 +40,8 @@ Route::group('admin', [
     'userEdit/:id'   => 'admin/user/userEdit',
     'cateEdit/:id'   => 'admin/cate/cateEdit',
     'articleEdit/:id'   => 'admin/article/articleEdit',
-    'cateAdd'   => 'admin/cate/cateAdd',
+    'cateAdd'   => 'admin/Cate/cateAdd',
+    'login' =>'admin/User/login'
     ]
 )->ext('html')->pattern(['id' => '\d+']);
 

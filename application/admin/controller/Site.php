@@ -8,6 +8,8 @@ use think\facade\Request;
 class Site extends Base
 {
     public function index(){
+        //判断用户是否登录
+        $this->isLogin();
         $siteInfo = SiteModel::get(['status'=>1]);
         $this->view->assign('siteInfo',$siteInfo);
         return $this->view->fetch('index');

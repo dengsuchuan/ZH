@@ -10,7 +10,7 @@ use think\facade\Session;
 use app\common\model\Category;
 use think\Db;
 use app\common\model\Site;
-use think\Facade\Request;
+use think\facade\Request;
 
 class Base extends Controller
 {

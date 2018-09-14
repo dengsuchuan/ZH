@@ -13,13 +13,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => '120.24.96.228',
     // 数据库名
     'database'        => 'zh',
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => 'www.geekln.cn',
+    'password'        => '0^R^7!aMrY2FJiuMCYnl82FWm2@kPsGZ',
     // 端口
     'hostport'        => '',
     // 连接dsn
@@ -41,7 +41,8 @@ return [
     // 指定从服务器序号
     'slave_no'        => '',
     // 是否严格检查字段是否存在
-    'fields_strict'   => true,
+    'fields_strict'   => false,
+	'strict' => false,
     // 数据集返回类型
     'resultset_type'  => 'array',
     // 自动写入时间戳字段

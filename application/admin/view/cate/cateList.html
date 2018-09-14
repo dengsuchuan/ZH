@@ -20,13 +20,13 @@
             {eq name="$cateList.status" value="0"}<span class="text-danger">隐藏</span>{/eq}
         </td>
         <td>{$cateList.create_time}</td>
-        <td><a href="{:url('admin/cate/cateEdit',['id'=>$cateList.id])}">编辑</a></td>
+        <td><a href="{:url('admin/Cate/cateEdit',['id'=>$cateList.id])}">编辑</a></td>
         <td><a class="del" id="{$cateList.id}" href="#">删除</a> </td>
 
     </tr>
     {/volist}
 </table>
-<a href="{:url('admin/cate/cateAdd')}" class="btn btn-success btn-sm">添加栏目</a>
+<a href="{:url('admin/Cate/cateAdd')}" class="btn btn-success btn-sm">添加栏目</a>
 <script>
     $(function () {
         $('.del').on('click', function () {
